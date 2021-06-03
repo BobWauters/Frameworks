@@ -1,0 +1,62 @@
+body{
+
+    font-family: 'Tajawal', sans-serif;
+}
+
+
+.container {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-column-gap: 6px;
+    grid-row-gap:6px;
+
+}
+
+.card {
+    padding:25px;
+    margin:10px;
+
+
+}
+.card-title{
+    text-align: center;
+    font-weight: bold;
+}
+.card-text{
+    text-align: center;
+}
+.btn, btn-primary:hover{
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    color:black;
+    padding:10px;
+    border-radius:35px;
+    font-weight: bold;
+    border:hidden;
+}
+
+btn-primary,hr :hover {
+    color: white;
+    border: hidden;
+}
+
+hr{
+   position: absolute;
+    bottom:75px;
+    left:87px;
+    right:87px;
+
+}
+
+hr:hover{
+    background-color:white;
+}
+
+
+img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
